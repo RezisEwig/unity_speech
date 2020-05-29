@@ -1,0 +1,307 @@
+{
+  "entities": {
+    "color": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "room": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "value": "garage",
+          "synonyms": []
+        },
+        {
+          "value": "garden",
+          "synonyms": []
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents" : {
+    "turnLightOff": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "부엌"
+            },
+            {
+              "text": "에 불 좀 꺼줘"
+            }
+
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "화장실"
+            },
+            {
+              "text": " 불 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "부엌"
+            },
+            {
+              "text": "에 불 꺼줄래?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "안방"
+            },
+            {
+              "text": " 불 꺼"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "거실"
+            },
+            {
+              "text": " 불 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "손님방"
+            },
+            {
+              "text": "에 불 좀 꺼주세요"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "내 방"
+            },
+            {
+              "text": " 불 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "집"
+            },
+            {
+              "text": "에 불 좀 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전체"
+            },
+            {
+              "text": " 불 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "불 "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전부"
+            },
+            {
+              "text": " 다 꺼줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전체"
+            },
+            {
+              "text": " 불 다 꺼줘"
+            }
+          ]
+        }
+      ]
+    },
+    "turnLightOn": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "부엌"
+            },
+            {
+              "text": "에 불 좀 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "화장실"
+            },
+            {
+              "text": " 불 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "부엌"
+            },
+            {
+              "text": "에 불 켜줄래?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "안방"
+            },
+            {
+              "text": " 불 켜"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "거실"
+            },
+            {
+              "text": " 불 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "손님방"
+            },
+            {
+              "text": "에 불 좀 켜주세요"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "내 방"
+            },
+            {
+              "text": " 불 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "집"
+            },
+            {
+              "text": "에 불 좀 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전체"
+            },
+            {
+              "text": " 불 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "불 "
+            },
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전부"
+            },
+            {
+              "text": " 다 켜줘"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "room",
+              "slot_name": "room",
+              "text": "전체"
+            },
+            {
+              "text": " 불 다 켜줘"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "ko"
+}

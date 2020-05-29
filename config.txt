@@ -1,0 +1,5 @@
+set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\tkdid\python-docs-samples\speech\microphone\key.json
+
+cd C:\Users\tkdid\python-docs-samples\speech\microphone
+
+python transcribe_streaming_mic.py
