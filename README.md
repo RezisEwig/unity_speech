@@ -1,6 +1,10 @@
 구글 GCP와 Snips NLU, Unity 엔진을 이용한 조명 조작 데모
 =========================================================
 
+![sample](./sample.png)
+
+***
+
 # 1. 참고 논문
 
 * Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces
